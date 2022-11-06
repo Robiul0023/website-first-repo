@@ -1,0 +1,1710 @@
+/*
+Theme Name: MyDreams.
+Version:101.
+Author: Shadman Tahmid.
+Author uri: https://feelingsshare.com
+Description: This is my first theme and it is made for educational purpose. This theme has many strong features and it is sure that is also free from all scamming. This is fully free for student. Student can use it for education purpose without any hesitation.We believe that this theme fill up all requirements educational fuctions.
+
+
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans:ital@1&family=Raleway:ital@0;1&display=swap');
+
+
+*{padding:0;
+  margin:0;	
+}
+
+body{
+	background-color:#f5f5f0;
+	margin: 20px auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2{
+	font-size:24px;
+}
+
+h3{
+	font-size:18px;
+}
+
+h4{font-size:16px;
+
+}
+
+p{
+	font-size:14px;
+}
+
+.main_wrap{
+	width:100%;
+}
+
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+
+.header_bg{
+	width:100%;
+	background-color:#003366;
+	
+}
+
+#header{
+	width:960px;
+	background-color:#003366;
+	padding:24px;
+}
+
+#header h2{
+	width:100%;
+	font-size:20px;
+	color:#fff;
+}
+
+#header p{
+	font-size:18px;
+	color:#0099ff;
+}
+
+
+.nav_bg{
+	background-color:#0099ff;
+	border-bottom:5px solid#66ccff;
+}
+
+#nav{
+	background-color:#0099ff;
+	height:38px;
+	padding:10px;
+	
+}
+
+#nav ul{
+	margin-left:50px;
+	list-style:none;
+	padding-top:10px;
+	
+}
+
+#nav ul li{
+	float:left;
+	border-right:1px solid#ffffff;
+	padding:10px;
+}
+
+#nav ul li:last-child{
+	border:none;
+}
+
+#nav ul li a{
+	text-decoration:none;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	padding:20px;
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+#nav ul li a:hover{
+	background-color:#ffffff;
+	color:#000000;
+}
+
+.mainContainer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.article_bg{
+	background-color:#ffffff;
+}
+.article__wrapper{
+	width:960px;
+	overflow:hidden;
+}
+
+
+.article__wrapper blockquote{
+	margin:0 auto;
+	
+}
+
+
+#article{
+	width:450px;
+	margin-top:20px;
+	float:left;
+	margin-left:0px;
+	display:block;
+}
+
+
+
+#article h2{
+	color:#3399ff;
+	margin:15px;
+	padding:15px;
+	
+}
+
+#article h4{
+	color:#3399ff;
+	margin:15px;
+	padding:15px;
+	
+}
+
+
+
+#article p{
+	
+	margin-top:15px;
+	text-align:center;
+	margin:15px;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+	
+	
+}
+
+
+
+
+#article img{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+	
+	
+}
+
+#feelings_part{
+	width: 450px;
+	margin-top: 155px;
+	float: right;
+	display:block;
+	
+}
+
+#feelings_part h2{
+	color:#3399ff;
+	margin:15px;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+#feelings_part h4{
+	color:#3399ff;
+	margin:15px;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#feelings_part  p{
+	margin-top:15px;
+	text-align:center;
+	margin:15px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+#feelings_part img{
+	width:100%;
+	height: auto;
+	margin:0 auto;
+	vertical-align: text-top;
+}
+
+#feelings_second{
+	width:450px;
+	float:right;
+	margin-top:20px;
+}
+
+#feelings_second h2{
+	margin:15px;
+	color:#3399ff;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#feelings_second h4{
+	width:100%;
+	height:300px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#feelings_second p{
+	margin:15px;
+	color:#000000;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+#feelings_second img{
+	width:100%;
+	height:300px;
+}
+
+
+
+
+.aside_bg{
+	background-color:#ffffff;
+	margin-top:20px;
+	overflow:hidden;
+}
+
+.aside_wrapper{
+	width:960px;
+}
+
+#aside{
+	width:450px; 
+	background-color:#ffffff;
+	float:left;
+	                                                                                                                                                                                                                                                                                                
+	
+}
+
+#aside blockquote{
+	width: 70%;
+    margin-left: 30px;
+	background-color:#A6A6A6;
+	padding:15px;
+}
+
+#aside h2{
+	font-family: 'Raleway', sans-serif;
+	margin:15px;
+	color:#0099ff;
+	
+}
+
+#aside p{
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#aside img{
+	margin:0 auto;
+	display:block;
+	width:100%;
+}
+
+#section{
+	width:450px;
+	background-color:#ffffff;
+	float:right;
+}
+
+#section h2{
+	font-family: 'Raleway', sans-serif;
+	font-size:20px; 
+	padding:15px;
+	text-align:center;
+	color:#0099ff;
+}
+
+#section p{
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	padding:15px;
+	font-size:15px;
+}
+
+#section img{
+	width:100%;
+	margin:0 auto;
+	display:block;
+	margin-top:40px;
+}
+
+#section_two{
+	float:right;
+}
+
+/*----------About Page----------*/
+.service_bg{
+	background-color:#e6faff;
+}
+
+.service_wrapper{
+	width:960px;
+	overflow:hidden;
+	display:flex;
+	flex-direction:row;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+
+.service_wrapper h2{
+	width:100%;
+	color:#0099cc;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+	margin-top:15px;
+	text-align:center;
+}
+
+.service_wrapper h3{
+	width:100%;
+	color:#0099cc;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+	font-size:80px;
+	margin-top:15px;
+	text-align:center;
+}
+
+.service_wrapper p{
+	width:100%;
+	color:#000000;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	margin-top:15px;
+	text-align:center;
+}
+
+#digital {
+	width:230px;
+	margin-left:15px;
+	
+}
+
+#progress{
+	width:230px;
+	margin-left:15px;
+	
+	
+}
+
+#solvers{
+	width:230px;
+	margin-left:15px;
+}
+
+#support{
+	width:230px;
+	margin-left:15px;
+}
+
+
+.story_bg{
+background-color:#e6f9ff;
+}
+
+#story{
+	background-color:#e6f9ff;
+	padding:15px;
+}
+
+#story h2{
+	color:#0099cc;
+	padding:15px;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+}
+
+#story p{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	text-align:center;
+}
+
+
+#story ol {
+  width: 100%;
+ margin-left:50px;
+ margin-top:10px;
+  
+}
+
+.biography_bg{
+	background-color:#e6f9ff;
+}
+
+#biography{
+	background-color:#e6f9ff;
+	padding:15px;
+	
+}
+
+#biography h2{
+	color:#33ccff;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	padding:15px;
+	font-size:20px;
+	margin:15px;
+}
+
+#biography p{
+	text-align:center;
+	padding:20px;
+	font-size:14px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#biography img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+/*-----------End---------*/
+
+/*------------Contact Page------*/
+
+.contact_bg{
+	background-color:#ffffff;
+}
+
+#contact{
+	background-color:#ffffff;
+	margin:20px;
+	padding:20px;
+}
+
+
+#contact img{
+	width:100%;
+	height:auto;
+	display:block;
+	background-color:#99ccff;
+	margin:0 auto;
+	
+}
+
+#contact h2{
+	width:100%;
+	color:#3399ff;
+	padding:15px;
+	margin:15px;
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+
+
+#contact p{
+	width:100%;
+	font-size:14px;
+	text-align:center;
+	margin-top:20px;
+	
+}
+
+
+.theme_bg{
+	background-color:#e6f2ff;
+}
+
+#theme{
+	background-color:#e6f2ff;
+}
+
+#theme h2{
+	font-size:20px;
+	text-align:center;
+	padding:20px;
+	color:#0099ff;
+}
+
+#theme audio{
+	width:100%;
+	padding:20px;
+}
+
+/*-------------End----------------------*/
+
+/*----------Mission Page----------------*/
+
+#mission{
+	width:960px;
+	display:block;
+}
+
+#mission h2{
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	color:#0099cc;
+	margin:15px 0px;
+	
+}
+
+
+#mission p{
+	text-align:justify;
+	margin:10px;
+	font-size:14px;
+}
+
+#mission img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+.mission_bg{
+	width:100%;
+	background-color:#ffffff;
+}
+
+.mission_wrapper{
+	width:960px;
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.mission_wrapper h2{
+	color:#0099ff;
+	padding:15px;
+	text-align:center;
+	font-style:italic;
+}
+
+
+.mission_wrapper h3{
+	color:#0099ff;
+	padding:15px;
+	text-align:center;
+	font-style:italic;
+}
+
+
+.mission_wrapper img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+.mission_wrapper p{
+	padding:15px;
+	text-align:center;
+	font-size:14px;
+}
+
+.mission_wrapper  blockquote{
+	width:53%;
+	margin-left:69px;
+	
+}
+
+
+#plan{
+	width:210px;
+	background-color:#ffffff;
+	padding:15px;
+	display:block;
+}
+
+#work{
+	width:210px;
+	background-color:#ffffff;
+	padding:15px;
+	display:block;
+}
+
+#implement{
+	width:210px;
+	background-color:#fff;
+	width:210px;
+	padding:15px;
+	display:block;
+	
+}
+
+
+#success{
+	width:210px;
+	background-color:#fff;
+	width:210px;
+	padding:15px;
+	display:block;
+}
+
+
+.slider_bg{
+	background-color:#fff;
+}
+
+#mission_slider{
+	padding:30px;
+	display:block;
+	margin:0 auto;
+}
+
+#mission_slider h2{
+	color:#00ccff;
+	margin-bottom:40px;
+	text-align:center;
+	font-size:20px;
+	font-style:italic;
+}
+
+
+div#slideshow-banner { 
+height:450px; 
+width:960px; 
+overflow:hidden; 
+position:relative; 
+margin:30px auto; 
+}
+
+
+div#slideshow-banner ul { 
+width:100%; 
+height:100%; 
+}
+
+
+ul li {
+list-style-type:none;
+}
+
+h1 { 
+margin-top:150px; 
+text-align:center;
+}
+
+#para{
+	width:960px;
+	display:block;
+	padding:20px;
+}
+
+#para h2{
+	color:#00ccff;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+	font-style:italic;
+}
+
+#para p{
+   
+   text-align:center;
+   padding:20px;
+   
+}
+
+
+/*----------End Mission Page-------------------*/
+/*---------Program Page------------------------*/
+.motivation_bg{
+	background-color:#e6f2ff;
+}
+
+#motivation{
+	background-color:#e6f2ff;
+	padding:15px;
+	display:block;
+	
+}
+
+#motivation h2{
+	color:#3399ff;
+	text-align:center;
+	font-size:20px;
+	padding:20px;
+	font-style:italic;
+	font-style:italic;
+}
+
+#motivation  p{
+	font-size:14px;
+	padding:20px;
+	text-align:center;
+}
+
+#motivation img{
+	width:100%;
+	height:800px;
+	display:block;
+	margin: 0 auto;
+}
+
+.encourage_bg{
+		background-color:#e6f2ff;
+}
+
+#encourage{
+	padding:15px;
+	display:block;
+	background-color:#e6f2ff;
+}
+
+#encourage h2{
+	color:#3399ff;
+	padding:20px;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	font-style:italic;
+	font-style:italic;
+}
+
+#encourage p{
+	padding:15px;
+	font-size:14px;
+	text-align:center;
+}
+
+#encourage video{
+	width:100%;
+	height:100%;
+	padding:15px;
+	display:block;
+	margin: 0 auto;
+}
+
+
+.program_table_bg{
+	background-color:#ffffff;
+}
+.program_table_wrap{
+	width:960px;
+}
+#program_table{
+	background-color:#fff;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+#program_table  h2{
+	color:#0099ff;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+	font-style:italic;
+	font-style:italic;
+}
+
+#program_table  h2{
+	color:#0099ff;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+	font-style:italic;
+}
+
+table.center{
+	margin-right:auto;
+	margin-left:auto;
+	padding:20px;
+}
+ table.center th, td{
+	border:2px solid#669999;
+	text-align:center;
+}
+
+
+
+.form_bg{
+	background-color:#e6f2ff;
+}
+
+#form{
+	background-color:#e6f2ff;
+	padding:20px;
+	display:block;
+	margin: 0 auto;
+}
+
+#form h2{
+	padding:20px;
+	color:#0099cc;
+	font-size:20px;
+	font-style:italic;
+}
+
+#form  fieldset{
+	padding:20px;
+}
+
+#form  input[type=text]{
+	width:50%;
+}
+
+#form label{
+	padding-top:10px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/*----------------End Program page------------*/
+
+/*---------------Our Team page----------------*/
+
+.team_bg{
+	width:100%;
+	background-color:#e6f2ff;
+}
+
+.team_wrapper{
+	width:960px;
+	display:flex;
+	flex-direction:row;
+}
+
+#team img{
+	width:960px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+}
+
+
+#team h2{
+	text-align:center;
+	padding:20px;
+	font-weight:bold;
+	color:#3399ff;
+	font-style:italic;
+}
+
+#team p{
+	text-align:center;
+	padding:20px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.team_wrapper h3{
+	text-align:center;
+	padding:10px;
+	font-weight:bold;
+	color:#3399ff;
+	font-style:italic;
+}
+
+.team_wrapper h4{
+	text-align:center;
+	padding:20px;
+	font-weight:bold;
+	color:#3399ff;
+	font-style:italic;
+}
+
+.team_one{
+	width:220px;
+	padding:10px;
+	
+}
+
+.team_one img{
+	width:100%;
+	padding:20px;
+	padding-left:10px;
+}
+
+.team_two{
+	width:220px;
+	padding:10px;
+	
+}
+
+.team_two img{
+	width:100%;
+	padding:20px;
+	padding-left:10px;
+	
+}
+
+.team_three{
+	width:220px;
+	padding:10px;
+	
+}
+.team_three img{
+	width:108%;
+	padding:20px;
+	padding-left:10px;
+}
+
+.team_four{
+	width:220px;
+	padding:20px;
+	padding-right:0;
+	
+}
+
+.team_four img{
+	width:82%;
+	padding:20px;
+	
+}
+
+.member_bg{
+	background-color:#e6f2ff;
+	overflow:hidden;
+}
+
+#member{
+	background-color:#e6f2ff;
+	padding:30px;
+}
+
+#member h2{
+	text-align:center;
+	color:#3399ff;
+	padding:10px;
+	font-style:italic;
+}
+
+#member h3{
+	text-align:center;
+	color:#3399ff;
+	padding:10px;
+	font-style:italic;
+}
+
+
+#member img{
+	width:100%;
+	padding:20px;
+	padding-top:0;
+	
+}
+
+.visual_feelings{
+	background-color:#e6f2ff;
+}
+
+#visual_feelings{
+	background-color:#e6f2ff;
+	padding:20px;
+}
+
+#visual_feelings h2{
+	color:#3399ff;
+	text-align:center;
+	font-style:italic;
+}
+
+#visual_feelings h3{
+	color:#3399ff;
+	padding:10px;
+	font-style:italic;
+}
+
+#visual_feelings p{
+	padding:10px;
+}
+
+#visual_feelings video{
+	width:100%;
+	padding:20px;
+}
+/*----------inspiration Page-------*/
+
+.inspiration_bg{
+	background-color:#fff;
+	overflow:hidden;
+}
+
+#inspiration{
+	width:960px;
+}
+#inspiration h2 {
+  width: 55%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #336699;
+  font-size:20px;
+}
+
+#inspiration img{
+	width:100%;
+	height:auto;
+	display:block;
+	margin-left:10px;
+	margin-top:0px;
+}
+.inspiration_wrapper{
+	width:960px;
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.inspiration_wrapper h2{
+	text-align:center;
+	padding:20px;
+	color:#3399ff;
+	font-style:italic;
+	
+}
+
+.inspiration_wrapper h3{
+	text-align:center;
+	padding:20px;
+	color:#3399ff;
+	font-style:italic;
+}
+
+
+.inspiration_wrapper h4{
+	text-align:center;
+	padding:15px;
+	color:#3399ff;
+	font-style:italic;
+}
+
+.inspiration_wrapper p{
+	text-align:center;
+	padding:20px;
+	font-style:italic;
+}
+
+.inspiration_wrapper img{
+	width:100%;
+	display:block;
+	margin-left:10px;
+}
+
+#inspiration_first{
+	width:210px;
+	padding:10px;
+	padding-left:0;
+}
+
+#motivation_primary{
+	width:500px;
+	padding:10px;
+	padding-left:0;
+	padding-top:25px;
+	
+}
+
+#motivation_primary video{
+	width:100%;
+	padding-top:10px;
+	overflow:hidden;
+}
+
+
+#encourages_stage{
+	width:210px;
+	padding:10px;
+	padding-left:0;
+}
+
+#encourages_stage  p{
+	text-align:justify;
+	padding-top:10px;
+}
+
+
+.section_bg{
+	background-color:#fff;
+	overflow:hidden;
+}
+
+.section_wrapper{
+	width:960px;
+	display:block;
+	float:left;
+}
+.section_wrapper h2{
+	text-align:center;
+	font-size:20px;
+	padding:10px;
+	color:#3399ff;
+	font-style:italic;
+}
+
+
+.section_wrapper p{
+	padding: 10px 0;
+	text-align:center;
+}
+
+.section_wrapper img{
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+#part_primary{
+	width:720px;
+	padding:20px 0px  10px 0px;
+	
+	
+}
+
+
+#part_second{
+	width:210px;
+	padding-top:20px;
+	padding:10px;
+	padding-right:0;
+	
+}
+
+
+
+/*----------End inspiration Page-------*/
+
+/*------------------Our Achievement Page-------*/
+
+.achievement_bg{
+	background-color:#fff;
+	overflow:hidden;
+}
+
+#achievement{
+	width:960px;
+	display:block;
+}
+
+
+#achievement h2{
+	text-align:center;
+	font-weight:bold;
+	margin:15px 0px;
+	color:#9DABFF;
+}
+
+#achievement img{
+	width:100%;
+	display:block;
+	margin-top: 0px;
+	margin-left:10px;
+	
+}
+
+#achievement p{
+	margin-left:30px;
+}
+.achievement_wrapper{
+	width:960px;
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.achievement_wrapper h3{
+	text-align:center;
+	padding:10px;
+	color:#3399ff;
+	font-style:italic;
+}
+
+.achievement_wrapper img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:10px;
+}
+
+.achievement_wrapper p {
+  width: 53%;
+  margin-left: 0px;
+}
+
+#achievement_success{
+	width:220px;
+	padding:10px;
+}
+
+#achievement_first{
+	width:220px;
+	padding:10px;
+}
+
+#achievement_second{
+	width:220px;
+	padding:10px;
+}
+
+#achievement_three{
+	width:220px;
+	padding:10px;
+}
+
+.achievement_middle_bg{
+	background-color:#e6f2ff;
+	padding:20px;
+}
+
+#achievement_middle{
+	width:960px;
+}
+
+#achievement_middle h2{
+	text-align:center;
+	padding:10px;
+	color:#3399ff;
+	font-size:20px;
+	font-style:italic;
+}
+
+#achievement_middle p{
+	text-align:justify;
+	padding:10px;
+	font-size:14px;
+}
+
+
+#achievement_middle img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+	padding:10px;
+}
+/*------------------End Our Achievement Page-------*/
+
+/*-----------------Dreams Page----------------------*/
+
+.dreams_bg{
+	background-color:#f5f5f0;
+	padding:20px;
+	overflow:hidden;
+}
+
+
+
+#dreams{
+	width:960px;
+	background-color:#f5f5f0;
+}
+
+
+#dreams h2{
+	color:#0099ff;
+	font-size:20px;
+	padding:10px;
+	font-style:italic;
+}
+
+
+#dreams img{
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	margin-top:0;
+}
+
+#dreams p{
+	width:100%;
+	font-size:14px;
+	padding-top:10px;
+}
+
+ 
+.dreams_wrapper{
+	width:960px;
+	display:block;
+	display:flex;
+	flex-direction:row;
+}
+
+.dreams_wrapper  h2{
+	width:100%;
+	color:#0099ff;
+	font-size:20px;
+	padding:10px;
+	font-style:italic;
+}
+
+.dreams_wrapper img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+.dreams_wrapper p{
+	font-size:14px;
+	padding-top:10px;
+}
+
+
+#dreams_success{
+	width:225px;
+	padding:10px;
+	background-color:#f5f5f0;
+}
+
+
+#dreams_first{
+	width:225px;
+	padding:10px;
+	background-color:#f5f5f0;
+}
+
+#dreamy_day{
+	width:225px;
+	padding:10px;
+	background-color:#f5f5f0;
+}
+
+
+#dreams_dreamy {
+	width:225px;
+	padding:10px;
+	padding-right:0;
+	background-color:#f5f5f0;
+}
+
+
+
+.table_bg{
+	background-color:#ffffff;
+}
+.table_wrap{
+	width:960px;
+	display: block;
+	margin:0 auto;
+}
+#table{
+	background-color:#fff;
+	padding:20px;
+	display: block;
+	margin:0 auto;
+	}
+
+#table  h2{
+	color:#0099ff;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+	font-style:italic;
+}
+
+#table  h2{
+	color:#0099ff;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+	font-style:italic;
+}
+
+table.center{
+	margin-right:auto;
+	margin-left:auto;
+	padding:20px;
+}
+ table.center th, td{
+	border:2px solid#669999;
+	text-align:center;
+}
+
+#table p{
+	padding:10px;
+}
+
+#table img{
+	width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+
+/*-----------------End Dreams Page----------------------*/
+
+/*----------------Archieve Page--------------------------*/
+.archive_slider_bg{
+	overflow:hidden;
+	background-color:#fff;
+}
+
+#archive_slider{
+	width:960px;
+	display:block;
+	margin:0 auto;
+	padding-left:0;
+	
+}
+
+#archive_slider  h3{
+	text-align:center;
+	padding:10px;
+	font-weight:bold;
+	font-style:italic;
+	color:#0099ff;
+	font-style:italic;
+}
+
+#archive_slider  p{
+	text-align:center;
+	padding-top:10px;
+	
+}
+
+#archive{
+	width:960px;
+	margin:20px;
+}
+
+#archive h2{
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	margin:15px;
+	color:#6D84A9;
+}
+
+#archive img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+#archive p{
+	text-align:center;
+	font-size:14px;
+	margin:15px;
+}
+
+
+.form_archive_bg{
+	background-color:#fff;
+	padding-top:20px;
+}
+
+#form_archive{
+	width:960px;
+	display:block;
+	margin:0 auto;
+	
+}
+#form_archive h2{
+	padding:10px;
+	text-align:center;
+	color:#0099ff;
+	font-style:italic;
+	font-style:italic;
+}
+
+#form_archive form label{
+	text-align:center;
+	font-weight:bold;
+	padding-top:10px;
+}
+
+#form_archive fieldset{
+	padding:20px;
+}
+
+
+
+#form_archive form{
+	display:inline-block;
+	margin:0 auto;
+}
+
+#form_archive form input[type=text]{
+	width:600px;
+}
+
+.archive_sections_bg{
+	background-color:#fff;
+	padding-top:20px;
+}
+
+.archive_sections_wrapper{
+	padding-top:10px;
+	width:960px;
+	display:flex;
+	flex-direction:row;
+}
+
+.archive_sections_wrapper h3{
+	padding-bottom:10px;
+	font-style:italic;
+	text-align:center;
+	color:#0099ff;
+	
+}
+
+.archive_sections_wrapper p{
+	  width: 95%;
+	  margin-left: 16px;
+	  margin-top: 15px;;
+}
+
+#nature{
+	width:220px;
+	padding:10px;
+	padding-left:0;
+}
+
+#nature img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+
+#romance{
+	width: 55%;
+	margin-left: 39px;
+	text-align: center;
+}
+
+#romance img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+#adventure{
+	width: 55%;
+	float: left;
+	margin-left: 36px;
+	padding-top: 20px;
+}
+
+#adventure img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+#history_archive{
+	width:220px;
+	padding:10px;
+	padding-right:0;
+	
+}
+
+#history_archive img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+
+/*----------------End Archive Page--------------------------*/
+
+
+
+
+
+
+
+/*----------Footer Page--------*/
+.footer_bg{
+	width:100%;
+	background-color:#0099ff;
+	overflow:hidden;
+	
+}
+.footer_wrapper{
+	width:960px;
+	
+}
+#footer{
+	width:960px;
+	background-color:#0099ff;
+	padding:50px;
+}
+
+#footer h2{
+	color:#fff;
+	text-align:center;
+	font-size:15px;
+	font-style:italic;
+}
+
+#footer p{
+	color:#fff;
+	padding:10px;
+	text-align:center;
+	font-size:20px;
+}
+
+#social_media{
+	width:960px;
+	display:block;
+	margin:0 auto;
+	margin-top: 50px;
+	padding-top:0px;
+}
+
+
+#social_media h4{
+	 text-align:justify;
+	 color:#ffffff;
+	 padding:10px;
+	 font-size:20px;
+}
+
+
+#social_media ul{
+	list-style:none;
+	
+}
+
+#social_media ul  li{
+	float:left;
+	padding:10px;
+}
+
+#social_media ul  li a{
+	text-align:center;
+	font-size:30px;
+	color:#ffffff;
+}
+
+#social_media ul li  img{
+	width:45px;
+	
+}
+
+.footer_nav_bg{
+	background-color:#0099ff;
+	padding-bottom:50px;
+	overflow:hidden;
+
+	
+}
+
+#footer_nav{
+	background-color:#0099ff;
+	display:block;
+	float:right;
+	overflow:hidden;
+}
+
+#footer_nav  ul{
+	list-style:none;
+	padding-bottom:30px;
+}
+
+#footer_nav ul li{
+	float:left;
+	border:1px solid#fff;
+	padding:10px;
+}
+
+#footer_nav ul li a{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	
+}
